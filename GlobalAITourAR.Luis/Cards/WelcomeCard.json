@@ -1,0 +1,29 @@
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "http://localhost:3978/img/bot-avatar_4.png",
+      "horizontalAlignment": "Center"
+    },    
+    {
+      "text": "Bienvenido Visitante!",
+      "type": "TextBlock",
+      "fontType": "Default",
+      "size": "ExtraLarge"
+    },
+    {
+      "text": "Mi nombre es Brainy, estoy para ayudarte con tu viaje.",
+      "type": "TextBlock",
+      "wrap": true
+    },
+    {
+      "text": "Puedo proporcionarte una conversaci&oacute;n m&aacute;s compleja, con di&aacute;logos m&aacute;s fluidos. Preguntame algo para comenzar.",
+      "type": "TextBlock",
+      "wrap": true
+    }
+  ],
+  "actions": []
+}

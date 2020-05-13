@@ -1,0 +1,275 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "aitour-destinations-demo-luis",
+  "desc": "",
+  "culture": "es-mx",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "getGreetings"
+    },
+    {
+      "name": "getInsults"
+    },
+    {
+      "name": "getJokes"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "purchaseTicket"
+    },
+    {
+      "name": "searchDestinations"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "city",
+      "subLists": [
+        {
+          "canonicalForm": "leon",
+          "list": []
+        },
+        {
+          "canonicalForm": "ciudad de mexico",
+          "list": []
+        },
+        {
+          "canonicalForm": "tepic",
+          "list": []
+        },
+        {
+          "canonicalForm": "zacatecas",
+          "list": []
+        },
+        {
+          "canonicalForm": "chihuahua",
+          "list": []
+        },
+        {
+          "canonicalForm": "oaxaca",
+          "list": []
+        },
+        {
+          "canonicalForm": "colima",
+          "list": []
+        },
+        {
+          "canonicalForm": "cancun",
+          "list": []
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "destinationType",
+      "subLists": [
+        {
+          "canonicalForm": "ciudad",
+          "list": []
+        },
+        {
+          "canonicalForm": "playa",
+          "list": []
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "paymentMethod",
+      "subLists": [
+        {
+          "canonicalForm": "tarjeta de credito",
+          "list": []
+        },
+        {
+          "canonicalForm": "efectivo",
+          "list": []
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "ticketType",
+      "subLists": [
+        {
+          "canonicalForm": "bus",
+          "list": []
+        },
+        {
+          "canonicalForm": "avion",
+          "list": []
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "age",
+      "roles": []
+    },
+    {
+      "name": "datetimeV2",
+      "roles": []
+    },
+    {
+      "name": "dimension",
+      "roles": []
+    },
+    {
+      "name": "email",
+      "roles": []
+    },
+    {
+      "name": "keyPhrase",
+      "roles": []
+    },
+    {
+      "name": "money",
+      "roles": []
+    },
+    {
+      "name": "number",
+      "roles": []
+    },
+    {
+      "name": "ordinal",
+      "roles": []
+    },
+    {
+      "name": "percentage",
+      "roles": []
+    },
+    {
+      "name": "phoneNumber",
+      "roles": []
+    },
+    {
+      "name": "temperature",
+      "roles": []
+    },
+    {
+      "name": "url",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "aloja",
+      "intent": "getGreetings",
+      "entities": []
+    },
+    {
+      "text": "buen dia",
+      "intent": "getGreetings",
+      "entities": []
+    },
+    {
+      "text": "buenas noches",
+      "intent": "getGreetings",
+      "entities": []
+    },
+    {
+      "text": "buenas tardes",
+      "intent": "getGreetings",
+      "entities": []
+    },
+    {
+      "text": "como estas?",
+      "intent": "getGreetings",
+      "entities": []
+    },
+    {
+      "text": "cuentame un chiste",
+      "intent": "getJokes",
+      "entities": []
+    },
+    {
+      "text": "donde puedo viajar y que sea una ciudad?",
+      "intent": "searchDestinations",
+      "entities": []
+    },
+    {
+      "text": "donde puedo viajar?",
+      "intent": "searchDestinations",
+      "entities": []
+    },
+    {
+      "text": "eres muy feo",
+      "intent": "getInsults",
+      "entities": []
+    },
+    {
+      "text": "eres un tonto",
+      "intent": "getInsults",
+      "entities": []
+    },
+    {
+      "text": "haceme una broma",
+      "intent": "getJokes",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "getGreetings",
+      "entities": []
+    },
+    {
+      "text": "hola",
+      "intent": "getGreetings",
+      "entities": []
+    },
+    {
+      "text": "hola como estas?",
+      "intent": "getGreetings",
+      "entities": []
+    },
+    {
+      "text": "me gustaría ir a la playa",
+      "intent": "searchDestinations",
+      "entities": []
+    },
+    {
+      "text": "que destinos hay disponibles de playa?",
+      "intent": "searchDestinations",
+      "entities": []
+    },
+    {
+      "text": "quiero adquirir tickets de avion para leon",
+      "intent": "purchaseTicket",
+      "entities": []
+    },
+    {
+      "text": "quiero comprar un pasaje a ciudad de mexico",
+      "intent": "purchaseTicket",
+      "entities": []
+    },
+    {
+      "text": "quiero comprar un pasaje de avión a leon para viajar desde el 3 hasta el 10 de junio",
+      "intent": "purchaseTicket",
+      "entities": []
+    },
+    {
+      "text": "quiero pasajes para viajar a leon",
+      "intent": "purchaseTicket",
+      "entities": []
+    },
+    {
+      "text": "quiero viajar a una playa",
+      "intent": "searchDestinations",
+      "entities": []
+    }
+  ],
+  "settings": []
+}

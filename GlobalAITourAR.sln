@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalAITourAR.AdaptiveCards", "GlobalAITourAR.AdaptiveCards\GlobalAITourAR.AdaptiveCards.csproj", "{4F84CC4E-04EC-4609-BF87-5EAD3B684751}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalAITourAR.Luis", "GlobalAITourAR.Luis\GlobalAITourAR.Luis.csproj", "{463FD1DE-DF70-489A-BF6F-F409E383399C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptsInit", "ScriptsInit", "{E1E7EC8C-9D2D-4B66-BFD4-DC17FBF9E6DC}"
+	ProjectSection(SolutionItems) = preProject
+		ScriptsInit\LUIS_Configs_v0.1.json = ScriptsInit\LUIS_Configs_v0.1.json
+		ScriptsInit\OptionsScript.sql = ScriptsInit\OptionsScript.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalAITourAR.WebAdmin", "GlobalAITourAR.WebAdmin\GlobalAITourAR.WebAdmin.csproj", "{B7EAA7A1-5AD0-41B8-A28D-BB83CAADB343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F84CC4E-04EC-4609-BF87-5EAD3B684751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F84CC4E-04EC-4609-BF87-5EAD3B684751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F84CC4E-04EC-4609-BF87-5EAD3B684751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F84CC4E-04EC-4609-BF87-5EAD3B684751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463FD1DE-DF70-489A-BF6F-F409E383399C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463FD1DE-DF70-489A-BF6F-F409E383399C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463FD1DE-DF70-489A-BF6F-F409E383399C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463FD1DE-DF70-489A-BF6F-F409E383399C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7EAA7A1-5AD0-41B8-A28D-BB83CAADB343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EAA7A1-5AD0-41B8-A28D-BB83CAADB343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EAA7A1-5AD0-41B8-A28D-BB83CAADB343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EAA7A1-5AD0-41B8-A28D-BB83CAADB343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE840610-B484-4B67-8A93-533DE068B3DA}
+	EndGlobalSection
+EndGlobal
