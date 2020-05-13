@@ -1,3 +1,5 @@
+![Image description](https://raw.githubusercontent.com/fsonego/globalaitour_ar/master/GlobalAITourAR.AdaptiveCards/wwwroot/img/bot-avatar_5.png)
+
 # Demo Global AI Tour Ar - Desarrollando Bots Empresariales - 2020/05
 Bienvenid@ a los archivos de código fuente de la demo que brindamos al Global AI Tour 2020 de la Ciudad de Rosario, Argentina.
 
